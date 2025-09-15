@@ -7,68 +7,69 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
       color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 40px 20px;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2em;
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin-top: 30px;
+      border: 5px solid #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
+    h1 {
+      font-size: 28px;
+      margin: 15px 0 5px;
     }
     h2 {
-      color: #2c3e50;
+      font-size: 18px;
+      font-weight: normal;
+      color: #555;
+      margin-bottom: 20px;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+    p {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      font-size: 16px;
+      line-height: 1.6;
     }
-    ul li::before {
-      content: "✔ ";
-      color: #27ae60;
-    }
-    footer {
-      text-align: center;
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
       background: #2c3e50;
-      color: white;
-      padding: 10px;
-      margin-top: 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+    .buttons a:hover {
+      background: #1abc9c;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Dr. Khojir, M.SI</h1>
-    <p>Dosen Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda</p>
-  </header>
+  <!-- Foto profil -->
+  <img src="foto.jpg" alt="Khojir" class="profile-img">
 
-  <section>
-    <h2>Tentang Saya</h2>
-    <p>
-      Doktor dalam Bidang Pendidikan dan Keguruan, Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda.  
-      Saya memiliki pengalaman selama <strong>20 tahun</strong> dalam bidang Pendidikan dengan fokus pada:
-    </p>
-    <ul>
-      <li>Pendidikan Islam</li>
-      <li>Pendidikan Islam Multikultural</li>
-      <li>Studi Keislaman</li>
-      <li>Moderasi Beragama</li>
-    </ul>
-  </section>
+  <!-- Nama dan jabatan -->
+  <h1>Dr. Khojir, M.SI</h1>
+  <h2>Dosen Universitas Islam Negeri Sultan Aji Muhammad Idris (UINSI) Samarinda</h2>
 
-  <footer>
-    <p>&copy; 2025 Dr. Khojir, M.SI</p>
-  </footer>
+  <!-- Deskripsi -->
+  <p><strong>Doktor dalam Bidang Pendidikan dan Keguruan</strong>, Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda.
+  Saya memiliki pengalaman lebih dari <strong>20 tahun</strong> dalam bidang Pendidikan dengan fokus pada Pendidikan Islam, Pendidikan Islam Multikultural, serta Studi Keislaman dan Moderasi Beragama.</p>
+
+  <!-- Tombol link -->
+  <div class="buttons">
+    <a href="mailto:emailanda@uinsisamarinda.ac.id">khojir@uinsi.ac.id</a>
+    <a href="https://scholar.google.com/">TscE7vYAAAAJ&hl</a>
+    <a href="https://orcid.org/">0009-0007-3537-7982</a>
+    <a href="https://www.scopus.com/">60086814100</a>
+  </div>
 </body>
 </html>

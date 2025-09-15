@@ -112,41 +112,25 @@ Dr. Khojir, M.SI terus berupaya mengembangkan penelitian dengan tema-tema pendid
 <body>
   <div class="container">
     <!-- Ganti nama file sesuai foto di repo -->
-    <img src="xxx.jpg" alt="Foto Dr. xxx, M.Pd." class="profile-img">
-    
-    <h1>Dr. Khojir, M.SI.</h1>
-    <h2>Dosen Universitas Islam Negeri Sultan Aji Muhammad Idris (UINSI) Samarinda</h2>
-    
-    <p><strong>Doktor Manajemen Pendidikan</strong>, Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda.<br>
-       Saya memiliki pengalaman lebih dari <strong>20 tahun</strong> dalam dalam bidang Pendidikan dengan fokus Pendidikan Islam, Pendidikan Islam Multikultural dan Studi Keislamann dan Moderasi Beragama..</p>
-        <div class="links">
-      <a href="mailto:sudadi@uinsi.ac.id">📧 Email</a>
-      <a href="#profil-uinsi">🌐 Profil UINSI Experts</a> <!-- diarahkan ke paragraf di bawah -->
-      <a href="https://scholar.google.com/citations?user=TscE7vYAAAAJ&hl" target="_blank">📚 Google Scholar</a>
-      <a href="https://orcid.org/0009-0007-3537-7982" target="_blank">🔗 ORCID</a>
-      <a href="https://www.scopus.com/authid/detail.uri?authorId= 60086814100" target="_blank">📖 Scopus</a>
-       </div>
-  </div>
+    <img src="foto.jpg" alt="Khojir" class="profile-img">
 
-  <!-- 🔹 Profil ringkas ditampilkan di sini -->
-  <div id="profil-uinsi" style="margin-top:50px; padding:20px; background:#fff; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-    <h2>Profil UINSI Experts</h2>
-    <p>Dr. <strong>Khojir, M.SI.</strong> adalah dosen Universitas Islam Negeri Sultan Aji Muhammad Idris (UINSI) Samarinda dengan bidang keahlian <em>Pendidikan Islam, Pendidikan Islam Multikultural dan Studi Keislamann dan Moderasi Beragama, dan Filsafat Pendidikan Islam</em>. Beliau telah berpengalaman lebih dari <strong>28 tahun</strong> dalam pengajaran, penelitian, dan pengembangan di bidang pendidikan.</p>
-    <p>Sebagai peneliti aktif, Dr. Khojir telah menerbitkan berbagai artikel di jurnal <strong>SINTA, Scopus, dan terindeks internasional</strong> yang fokus pada isu Pendidikan Islam, Pendidikan Islam Multikultural dan Studi Keislamann dan Moderasi Beragama, dan Filsafat Pendidikan Islam.</p>
-    <p>Selain penelitian, beliau juga terlibat dalam <strong>pengabdian masyarakat</strong> berupa penguatan moderasi beragama dan peningkatan kompetensi Guru.</p>
-    <p>Dr. Khojir terus mengembangkan riset pada tema <em>pendidikan Islam berbasis digital, Pendidikan Islam Berbasis Kearifan lokal dan Multikultural, moderasi beragama dan Filsafat Pendidikan Islam</em>, sekaligus membangun jejaring kolaborasi akademik di tingkat nasional maupun global.</p>
+  <!-- Nama dan jabatan -->
+  <h1>Dr. Khojir, M.SI</h1>
+  <h2>Dosen Universitas Islam Negeri Sultan Aji Muhammad Idris (UINSI) Samarinda</h2>
+
+  <!-- Deskripsi -->
+  <p><strong>Doktor dalam Bidang Pendidikan dan Keguruan</strong>, Universitas Islam Negeri Sultan Aji Muhammad Idris Samarinda.
+  Saya memiliki pengalaman lebih dari <strong>20 tahun</strong> dalam bidang Pendidikan dengan fokus pada Pendidikan Islam, Pendidikan Islam Multikultural, serta Studi Keislaman dan Moderasi Beragama.</p>
+
+  <!-- Tombol link -->
+  <div class="buttons">
+    <a href="mailto:emailanda@uinsisamarinda.ac.id">khojir@uinsi.ac.id</a>
+    <a href="https://scholar.google.com/">TscE7vYAAAAJ&hl</a>
+    <a href="https://orcid.org/">0009-0007-3537-7982</a>
+    <a href="https://www.scopus.com/">60086814100</a>
   </div>
-<div id="kontak" class="container">
-    <h2>Kontak</h2>
-    <p>Email: <a href="mailto:khojir@uinsi.ac.id">khojir@uinsi.ac.id</a></p>
-  </div>
-    
-    <a href="https://wa.me/6285247076190?text=Halo%20Dr.%20Sudadi,%20saya%20ingin%20berkonsultasi."
-       target="_blank"
-       style
-  ="display:inline-block; margin-top:15px; padding:12px 20px; background:#25D366; color:white; border-radius:30px; text-decoration:none; font-size:1em; font-weight:bold; transition:0.3s;">
-       💬 Chat via WhatsApp
-    </a>
+</body>
+</html>    </a>
 </div>
     <footer>
     © 2025 | Landing Page Dr. Khojir, M.SI.
